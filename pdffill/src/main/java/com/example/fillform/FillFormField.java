@@ -33,7 +33,7 @@ public final class FillFormField {
   }
 
   public static void main(String[] args) throws IOException {
-    String formTemplate = "../../forms/42101s.pdf";
+    String formTemplate = "../forms/42101s.pdf";
 
     try (PDDocument pdfDocument = Loader.loadPDF(new File(formTemplate))) {
       // get the document catalog
