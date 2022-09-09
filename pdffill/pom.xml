@@ -32,7 +32,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <mainClass>com.example.fillform.FillFormField</mainClass>
-              <classpathPrefix>../${project.parent.relativePath}/lib/</classpathPrefix>
+              <classpathPrefix>lib/</classpathPrefix>
             </manifest>
           </archive>
         </configuration>

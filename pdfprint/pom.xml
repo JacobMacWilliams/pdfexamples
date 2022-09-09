@@ -32,7 +32,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <mainClass>com.example.print.PrintFields</mainClass>
-              <classpathPrefix>${project.parent.relativePath}/../lib/</classpathPrefix>
+              <classpathPrefix>lib/</classpathPrefix>
             </manifest>
           </archive>
         </configuration>
